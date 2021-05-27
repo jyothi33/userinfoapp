@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .App-logo {
@@ -35,4 +38,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.userNames {
+  flex-grow: 1;
+  height: 650px;
+  overflow-y: auto;
+}
+
+.userNames p {
+  background-color: darkgray;
+  padding: 5px;
+  border-radius: 25px;
 }
